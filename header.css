@@ -1,0 +1,70 @@
+.remove-padding {
+	padding: 0px;
+}
+.site-nav ul {
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	font-size: 0.8em;
+}
+.site-nav li {
+	float: left;
+}
+
+.site-nav a {
+	display: block;
+	color: gray;
+	text-align: center;
+	padding:10px;
+}
+
+.site-nav a:hover,
+.site-nav a:active,
+.site-nav a.here {
+	color: var(--blue);
+}
+
+@media (max-width: 991px){
+	div.navigation {
+		clear: both;
+		float: left;
+	}
+}
+
+/* contact bubbles */
+a.telephone{
+    color: var(--dark-gray);
+    margin-left: 20px;
+}
+a.quote{
+	 color: white;
+	 margin-left: 30px;
+}
+.contact-bubble span {
+	display: inline-block;
+	margin-top: 4px;
+	font-size: 0.9em;
+}
+.contact-bubble img {
+	padding: 5px 10px;
+}
+.gray {
+	height: 30px;
+	background-color: var(--light-gray);
+	position: relative;
+	left: 40px;
+}
+.gray img {
+	float: left;
+}
+.blue img {
+	float: right;
+}
+
+.blue {
+  height: 30px;
+  background-color: var(--blue);
+}
+.text{
+  z-index: 2;
+}

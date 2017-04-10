@@ -1,0 +1,107 @@
+* {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+
+@font-face {
+    font-family: Liberation Sans;
+    src: url(assets/LiberationSans-Regular.ttf);
+}
+@font-face {
+    font-family: Liberation Sans Bold;
+    src: url(assets/LiberationSans-Bold.ttf);
+}
+
+:root{
+	--blue: #00bae9;
+	--dark-gray: #404041;
+	--light-gray: #e4e4e4;
+};
+html {
+	font-family: "Liberation Sans";
+    color: gray;
+}
+h1 {
+  color: var(--blue);
+  font-family: "Liberation Sans Bold";
+}
+
+/*rounded corners*/
+.rounded-corners-large {
+-moz-border-radius-topleft: 50px;
+-moz-border-radius-topright: 0px;
+-moz-border-radius-bottomright: 50px;
+-moz-border-radius-bottomleft: 0;
+
+-webkit-border-top-left-radius: 50px;
+-webkit-border-top-right-radius: 0px;
+-webkit-border-bottom-right-radius: 50px;
+-webkit-border-bottom-left-radius: 0;
+}
+
+.rounded-corners-small {
+-moz-border-radius-topleft: 30px;
+-moz-border-radius-topright: 0px;
+-moz-border-radius-bottomright: 30px;
+-moz-border-radius-bottomleft: 0;
+
+-webkit-border-top-left-radius: 30px;
+-webkit-border-top-right-radius: 0px;
+-webkit-border-bottom-right-radius: 30px;
+-webkit-border-bottom-left-radius: 0;
+}
+
+.rounded-bubble {
+-moz-border-radius-topleft: 0px;
+-moz-border-radius-topright: 0px;
+-moz-border-radius-bottomright: 100px;
+-moz-border-radius-bottomleft: 100px;
+
+-webkit-border-top-left-radius: 0px;
+-webkit-border-top-right-radius: 0px;
+-webkit-border-bottom-right-radius: 100px;
+-webkit-border-bottom-left-radius: 100px;	
+}
+
+.rounded-tag {
+-moz-border-radius-topleft: 0px;
+-moz-border-radius-topright: 0px;
+-moz-border-radius-bottomright: 30px;
+-moz-border-radius-bottomleft: 0px;
+
+-webkit-border-top-left-radius: 0px;
+-webkit-border-top-right-radius: 0px;
+-webkit-border-bottom-right-radius: 40px;
+-webkit-border-bottom-left-radius: 0px;	
+
+position: absolute;
+left: 0px;
+margin-top: -2px;
+}
+
+.rounded-img {
+-moz-border-radius-topleft: 20px;
+-moz-border-radius-topright: 0px;
+-moz-border-radius-bottomright: 20px;
+-moz-border-radius-bottomleft: 0px;
+
+-webkit-border-top-left-radius: 20px;
+-webkit-border-top-right-radius: 0px;
+-webkit-border-bottom-right-radius: 20px;
+-webkit-border-bottom-left-radius: 0px;	
+
+width: 50px;
+height: 50px;
+}
+
+hr{
+	margin: 0px;
+	margin-left: 8.33%;
+	margin-right: 8.33%;
+
+	-webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+}

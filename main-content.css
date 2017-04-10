@@ -1,0 +1,149 @@
+.stories {
+	/*margin-top: 20px;*/
+		color: gray;
+}
+
+.stories  [class*="col-"] {
+	text-align: center;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.stories  a {
+  border: 1px solid var(--dark-gray);
+  color: var(--dark-gray);
+  padding: 10px 18px;
+  margin-top: 4em;
+}
+.stories  h3 {
+	margin: 0.7em 0;
+	color: var(--blue);
+	font-family: "Liberation Sans Bold";
+	height: 3em;
+}
+.stories  p {
+	margin: 0.8em 0;
+	margin-bottom: 2em;
+	height: 4em;
+}
+@media(max-width: 991px){
+	/*md brakpoint*/
+	.stories  p {
+		height: 6em;
+	}
+}
+@media(max-width: 768px){
+	/*sm breakpoint*/
+	.stories  p {
+		height: 2em;
+	}
+	.stories  h3 {
+		height: auto;
+	}
+}
+@media(max-width: 690px){
+	/*p starts to wrap*/
+	.stories  p {
+		height: 4em;
+	}
+	.stories  h3 {
+		height: auto;
+	}
+}
+
+.stories .icon{
+	width: 80px;
+	height: 80px;
+	background-position: center center;
+}
+
+
+
+/*----------------------------------------------------------*/
+/* about us section */
+.about-us {
+		color: gray;
+		width: 100%;
+		text-align: justify;
+}
+.title {
+	margin: 0 0 2em 0;
+}
+.styled {
+	line-height: 0.5;
+	text-align: center;
+}
+.styled span {
+	display: inline-block;
+	position: relative;
+}
+.styled span:before,
+.styled span:after {
+  content: "";
+  position: absolute;
+  height: 5px;
+  border-bottom: 1px solid gray;
+  top: 0;
+  width: 100%;
+}
+.styled span:before {
+  right: 100%;
+  margin-right: 15px;
+}
+.styled span:after {
+  left: 100%;
+  margin-left: 15px;
+}
+
+
+/*---------------------------------------------------------*/
+/*clients say section*/
+.clients-say {
+	margin-top: 20px;
+	color: gray;
+}
+.tag {
+	background-color: var(--blue);
+	font-size: 1.5em;
+	color: white;
+	padding: 0.4em;
+	width: 40%;
+}
+.tag span {
+    padding: 0 20px 0px 30%;
+}
+
+@media (max-width: 850px){
+	.tag {
+		font-size: 1.1em;
+	}
+}
+
+/*testimonials*/
+
+.clients-say .row {
+	margin-top: 40px;
+}
+.clients-say .more a{
+	color: var(--blue);
+	line-height: 100%;
+}
+.clients-say .more img {
+	background-color: var(--blue);
+	padding: 5px;
+}
+
+.client-info img {
+
+}
+
+.client-quote {
+	text-align: center;
+	background-color: #f3f3f3; /*very light gray*/
+	border: 0.5px solid;
+	border-color: #e1e1e1;
+	border-radius: 3px;
+}
+quote:before {
+	
+}

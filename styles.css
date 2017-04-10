@@ -1,3 +1,4 @@
+/* css reset */
 * {
 	margin: 0;
 	padding: 0;
@@ -5,7 +6,20 @@
 	box-sizing: border-box;
 	text-decoration: none;
 }
-
+button {
+    background: none;
+    border: 0;
+    color: inherit;
+    /* cursor: default; */
+    font: inherit;
+    line-height: normal;
+    overflow: visible;
+    padding: 0;
+    -webkit-appearance: button; /* for input */
+    -webkit-user-select: none; /* for button */
+       -moz-user-select: none;
+        -ms-user-select: none;
+}
 @font-face {
     font-family: Liberation Sans;
     src: url(assets/LiberationSans-Regular.ttf);
@@ -19,6 +33,8 @@
 	--blue: #00bae9;
 	--dark-gray: #404041;
 	--light-gray: #e4e4e4;
+
+    /* html gray is #808080 */
 };
 html {
 	font-family: "Liberation Sans";
@@ -104,4 +120,9 @@ hr{
 
 	-webkit-margin-before: 0;
     -webkit-margin-after: 0;
+}
+
+.offset-custom {
+	/*between offset-0 & offset-1*/
+	margin-left: 4%;
 }

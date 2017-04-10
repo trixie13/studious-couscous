@@ -68,3 +68,98 @@ a.quote{
 .text{
   z-index: 2;
 }
+
+
+
+/*certification logo*/
+.header {
+	position: relative;
+	margin-bottom: 15px;
+}
+.certification{
+	position: absolute;
+	top:-6px;
+	right: 8.33%;
+}
+
+/* hamburger icon */
+button.collapse-menu{
+	display: none;
+}
+
+
+@media (max-width: 991px) and (min-width: 921px) {
+	/*between md and sm*/
+	/* navigation */
+	.navigation {
+		width: 600px;
+	}
+	.pull-custom {
+		right: 18%;
+	}
+     
+    /* contact bubbles */
+	.contact-bubble img {
+		padding: 5px 2px;
+	}
+	a.quote {
+		margin-left: 13px;
+	}
+}
+
+@media(max-width: 920px){
+	.certification {
+		right: 3%;
+	}
+	.navigation {
+		width: 600px;
+	}
+}
+
+@media(max-width: 745px){
+	a.quote{
+		margin-left: 5px;
+	}
+	a.telephone{
+		margin-left: 5px;
+	}
+	.contact-bubble {
+		margin-left: -40px;
+	}
+	.contact-bubble img{
+		padding: 5px 0px;
+	}
+	.pull-custom {
+		right: 10%;
+	}
+}
+
+@media(max-width: 685px){
+	.pull-custom {
+		right: 22%;
+	}
+}
+
+@media(max-width: 575px){
+	/* 
+	 -  hamburger menu form now 
+	 -  hide certification (maybe show in the footer)
+	 */
+
+	 .collapse-menu {
+	 	display: none;
+	 }
+	 button.collapse-menu {
+	 	display: inline-block;
+	 	position: absolute;
+	 	top: 5px;
+	 	right: 25px;
+	 }
+	 .certification {
+	 	display: none;
+	 }
+}
+
+@media(min-width: 540px){
+	/* still breaks here */
+}
